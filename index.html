@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/.css/style.css" />
+    <title>My CSS Cheatsheet</title>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Cheatsheet</h1>
+    </header>
+    <nav>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur ad
+        officia enim, illo tenetur debitis et dolor quisquam temporibus
+        laboriosam necessitatibus ex pariatur consequuntur. Provident molestias
+        minima sequi sint aut est, rem accusantium temporibus. Illum
+        reprehenderit provident officia fuga odit adipisci perferendis officiis
+        consequuntur quasi eos! Deleniti, a. Labore, pariatur!
+      </p>
+    </nav>
+    <section>
+      <div class="card" id="Flexbox">
+        <div class="card-header">
+          <h2>Creating a Flexbox</h2>
+        </div>
+        <p>To start, you need to select which elements are to be laid out as flexible boxes. To do this, we set a special value of display on the parent element of the elements you want to affect.</p>
+        <pre>
+          <code>
+            section {
+              display: flex;
+            }             
+          </code>
+        </pre>  
+      </div>
+      <div class="card" id="Flex Model">
+        <div class="card-header">
+          <h2>The Flex Model</h2>
+        </div>
+        <p>The main axis is the axis running in the direction the flex items are laid out in (for example, as a row across the page, or a column down the page.) The start and end of this axis are called the main start and main end. <br>
+          The cross axis is the axis running perpendicular to the direction the flex items are laid out in. The start and end of this axis are called the cross start and cross end.
+        </p>
+        <img src="./assets/Images/flex_terms.png" alt="Picture with the main and cross axis labeled and other terms.">                
+      </div>
+      <div class="card" id="Flexbox Row">
+        <div class="card-header"><h2>Flexbox Row</h2></div>
+        <p>Use these properties to create a Flexbox row layout. (This is the default layout.)</p>
+        <pre>
+          <code>
+            .row {
+
+              display: flex;
+              
+              flex-direction: Row;
+              
+              flex-wrap: wrap;
+              }
+          </code>
+      </div>
+      <div class="card" id="Flexbox column">
+        <div class="card-header">
+          <h2>Flexbox column</h2>
+        </div>
+        <p>Use these properties to create a Flexbox row layout</p>
+        <pre>
+          <code>
+            .row {
+
+              display: flex;
+              
+              flex-direction: column;
+              
+              flex-wrap: wrap;
+              }
+          </code>
+        </pre>  
+      </div>
+      
+          
+        <!-- *** Template for new cards ** 
+      <div class="card" id="____________">
+        <div class="card-header">
+          <h2>____________</h2>
+        </div>
+        <p>_____***DESCRIPTION OF FUNCTION***____</p>
+        <pre>
+          <code>
+          </code>
+        </pre>  
+      </div>
+        -->
+       
+      </div> 
+    </section>
+    <footer></footer>
+  </body>
+</html> 

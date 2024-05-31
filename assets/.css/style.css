@@ -1,0 +1,78 @@
+/* Using info on https://www.w3schools.com/howto/howto_css_cards.asp */
+/* Color Pallete
+Background = #1b262c
+2nd = #0f4c75
+3rd = 3282B8
+4th =  BBE1FA*/
+
+* {
+  background-color: #1b262c;
+}
+
+p {
+  text-align: center;
+  color: bisque;
+  overflow: auto;
+}
+
+header > * {
+  background-color: #3282b8;
+  color: black;
+  text-align: center;
+}
+
+header {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-inline: auto;
+  background-color: #3282b8;
+}
+
+section {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 50px;
+  margin-inline: auto;
+  border: dashed gray;
+  background-color: #0f4c75;
+  box-shadow: 0 5px 8px 0 white;
+  text-wrap: wrap;
+}
+
+.card p {
+  background-color: #0f4c75;
+  height: 60px;
+}
+
+.card-header {
+  width: 300px;
+  height: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-top: -40px;
+  margin-inline: auto;
+  background-color: #3282b8;
+  text-align: center;
+}
+
+.card-header h2 {
+  background-color: #3282b8;
+  color: black;
+  text-align: center;
+}
+
+pre {
+  background-color: #bbe1fa;
+  height: 100%;
+}
+
+code {
+  background-color: #bbe1fa;
+}
